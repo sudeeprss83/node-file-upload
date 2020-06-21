@@ -1,10 +1,8 @@
-const { Sequelize } = require("sequelize");
 const express = require("express");
 
 //creating express app
 const app = express();
 app.use(express.json());
-
 
 //Fetching the home page
 app.get("/", (req, res) => {
